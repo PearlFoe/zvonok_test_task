@@ -83,3 +83,16 @@ X Æ A-12 45
 
 
 ## Решение 2.2
+Написал решение в `task2/main.py`. Тест к нему в `tast2/tests.py`.
+
+Если нужно запустить то:
+```shell
+cd task2/
+
+python -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+pytest tests.py
+```
